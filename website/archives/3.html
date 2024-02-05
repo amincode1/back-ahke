@@ -1,0 +1,51 @@
+
+      <div class="item" id="1-3">
+            <div class="header-item" style="">
+                <ul>
+                    <li style="display: flex;"><img class="user-image" src="images/local-profile-image/5a73f49b680dc554f68c5c9916a2799f.jpg"></li>
+                    <li class="btn-acount" onclick="account_info(3)">
+                      <div class="header-info-user">
+                        <span id="user-name">رائد سهيل إياد</span>
+                        <span id="username">raed</span>
+                      </div>
+                    </li>
+                    <li class="category-name-of-item" onclick="quotes_link()" style="background : var(--active-option);">
+                      <span>إقتباسات</span>
+                      <span>&nbsp;</span>
+                    </li>
+                    <li class="item-more-options" onclick="toggle_item_options(this)">
+                      <span class="material-icons icon">more_horiz</span>
+                      <span>&nbsp;</span>
+                    </li>
+                </ul>
+            </div>
+        
+            <ul class="item-options">
+                <li onclick="notify(3,0,1)">
+                    <span class="span-text">إبلاغ</span> &nbsp;
+                    <span class="material-icons icon">flag_circle</span>
+                </li>
+              
+            </ul>
+        
+            <div class="item-content " style="opacity:1">
+                <div class="item-text" style="font-size:16px;" onclick="show_full_text(this,1,3)">‏هذا هو ... الى حدٍ ما نمطي في الحياة : آخذ خطوة الى الأمام ، أتحرك ، أتعثر ، أقف ، أعودُ إلى السير ، أتقدم إلى الأمام ، أسقط على وجهي ، أقف من جديد ، أتابعُ السير </div>
+            </div>
+
+            
+	        <ul class="footer-item">
+		        <li onclick="share(3,1)">
+		            <span class="material-icons icon icon-footer">share</span>
+		        </li>
+		        <li onclick="save(this)"><span class="material-icons icon icon-footer">bookmark_border</span></li>
+		        <li onclick="download(this)"><span class="material-icons icon icon-footer">save_alt</span></li>
+		        <li onclick="copy(this)"><span class="material-icons icon icon-footer">copy_all</span></li>
+		        <li onclick="like(this,3,1,0)">
+		            <span class="material-icons icon icon-footer">favorite_border</span>
+		        </li>
+		        <input id="item-id" type="hidden" value="3">
+		        <input id="user-id" type="hidden" value="1338">
+		        <input id="category-num" type="hidden" value="1">
+	        </ul>
+          </div>
+  
